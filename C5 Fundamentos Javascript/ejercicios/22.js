@@ -5,6 +5,15 @@ function divide(x, y) {
   // 10, 5 ---> 2
   // 5, 5 ---> 1
   // Tu código:
+  return (x) / (y);
+
 }
+
+let dato1 = 23
+let dato2 = 3
+let dato3 = 7
+
+console.log(divide(dato1, dato2));
+
 
 module.exports = divide;

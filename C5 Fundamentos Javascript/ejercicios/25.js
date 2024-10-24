@@ -4,6 +4,12 @@ function combinarNombres(nombre, apellido) {
   // Por ejemplo: 
   // "Soy", "Henry" ---> "Soy Henry"
   // Tu código:
+  return nombre + " " + apellido;
+
 }
+let nom1 = "Carlos"
+let nom2 = "Camacho"
+console.log(combinarNombres(nom1, nom2));
+
 
 module.exports = combinarNombres;

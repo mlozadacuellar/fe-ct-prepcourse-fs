@@ -6,6 +6,8 @@ function devolverString(string) {
   // "hola mundo" ---> "hola mundo" 
   // "SoyHenry" ---> "SoyHenry" 
   // Tu código:
-}
+  return string;
 
+}
+console.log(devolverString("Hola Mundo"));
 module.exports = devolverString;

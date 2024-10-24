@@ -6,6 +6,19 @@ function esPar(num) {
   // 14 ---> true
   // 15 ---> false
   // Tu código:
+  if (num % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
+
+let nume1 = 24
+let nume2 = 31
+
+console.log(esPar(nume1));
+console.log(esPar(nume2));
+
+
 
 module.exports = esPar;
